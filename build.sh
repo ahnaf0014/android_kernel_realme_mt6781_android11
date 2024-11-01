@@ -7,8 +7,8 @@ source ~/.bashrc && source ~/.profile
 export LC_ALL=C && export USE_CCACHE=1
 ccache -M 100G
 export ARCH=arm64
-export KBUILD_BUILD_HOST=Cyanide
-export KBUILD_BUILD_USER="pritish"
+export KBUILD_BUILD_HOST=Cyanide_ksu
+export KBUILD_BUILD_USER="pritish,AhnafR"
 git clone --depth=1 https://github.com/DrtSinX98/android_prebuilts_clang_host_linux-x86_clang-6443078 clang
 git clone --depth=1 https://github.com/DrtSinX98/prebuilts_gcc_linux-x86_aarch64_aarch64-linaro-7 los-4.9-64
 git clone --depth=1 https://github.com/DrtSinX98/linaro_arm-linux-gnueabihf-7.5 los-4.9-32
